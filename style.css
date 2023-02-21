@@ -1,0 +1,285 @@
+/* Color codes */
+/* E6E5E1 */
+/* CFCCBB */
+/* 564E43 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #564E43;
+}
+h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 20px;
+}
+
+/* home part css start */
+section {
+    width: 100%;
+    height: 100vh;
+}
+section#home {
+    background-color: #E6E5E1;
+}
+.container {
+    width: 94%;
+    height: 88%;
+    /* background-color: #0a0; */
+    margin: 0 auto;
+    padding: 3% 0;
+}
+.home_img {
+    width: 45%;
+    height: 100%;
+    float: left;
+    /* background-color: #a00; */
+}
+.home_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+.home_texts {
+    width: 55%;
+    height: 100%;
+    /* background-color: #ccc; */
+    float: left;
+    color: #564E43;
+}
+.home_texts h1 {
+    margin: 150px 120px 0;
+    font-size: 48px;
+}
+.home_texts p {
+    margin: 20px 120px 0;
+    font-size: 24px;
+}
+.home_texts a {
+    display: inline-block;
+    margin: 100px 120px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background-color: #564E43;
+    color: #E6E5E1;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* home part css end */
+
+/* about part css start */
+section#about {
+    background-color: #CFCCBB;
+    color: #564E43;
+}
+.about_texts {
+    width: 55%;
+    /* background-color: #eee; */
+    float: left;
+    height: 100%;
+}
+.about_texts h2 {
+    margin-top: 180px;
+    text-transform: uppercase;
+}
+.about_texts p {
+    text-align: justify;
+    line-height: 1.5;
+}
+.about_texts h2, .about_texts p {margin-left: 40px; padding: 20px 20px 10px;}
+.about_img {
+    width: 45%;
+    /* background-color: #444; */
+    float: left;
+    height: 100%;
+}
+.about_img img {
+    margin-top: 25px;
+    margin-left: 125px;
+    border-radius: 1%;
+}
+
+/* about part css end */
+
+
+/* services part css start */
+section#services {
+    background-color: #E6E5E1;
+    color: #564E43;
+}
+#services .div1 {
+    width: 45%;
+    height: 100%;
+    /* background-color: #ff0; */
+    float: left;
+}
+#services .div2 {
+    width: 55%;
+    height: 83%;
+    /* background-color: #fff; */
+    float: left;
+    padding-top: 100px;
+}
+#services .div1 h2 {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#services .services_div {
+    height: 33.3%;
+}
+.services_img {
+    width: 10%;
+    float: left;
+    margin-left: 5%;
+}
+/* #services > div > div.div2 > div:nth-child(1) {
+    background-color: #0e0;
+}
+#services > div > div.div2 > div:nth-child(2) {
+    background-color: #e00;
+}
+#services > div > div.div2 > div:nth-child(3) {
+    background-color: skyblue;
+} */
+#services .services_servicestext {
+    /* background-color: orange; */
+    width: 75%;
+    float: left;
+    margin-left: 5%;
+    text-align: justify;
+}
+.services_servicestext h3 {
+    margin-bottom: 1%;
+}
+
+/* services part css end */
+
+
+/* testimonial part css start */
+section#testimonial {
+    background-color: #CFCCBB;
+}
+#testimonial h2 {
+    margin-bottom: 4%;
+    margin-left: 60px;
+}
+.div_testimonials {
+    width: calc(100% - 100px);
+    height: 80%;
+    margin-left: 60px;
+    /* background-color: #ee0; */
+}
+#testimonial .div_t1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: #eee; */
+    float: left;
+    margin-right: 5%;
+}
+#testimonial .div_t2 {
+    width: 30%;
+    height: 100%;
+    /* background-color: #ccc; */
+    float: left;
+    margin-right: 5%;
+}
+#testimonial .div_t3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: #aaa; */
+    float: left;
+}
+.t_imgs {
+    width: 100%;
+    height: 80%;
+    border-radius: 1%;
+}
+.div_testimonials div h3 {
+    margin: 2% 0;
+}
+.div_testimonials div p {
+    margin: 3% 0;
+}
+
+/* testimonial part css end */
+
+
+/* contact part css start */
+section#contact {
+    background-color: #564E43;
+}
+#contact .contact_texts {
+    width: 54%;
+    height: 100%;
+    /* background-color: #ccc; */
+    float: left;
+    color: #E6E5E1;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+#contact .contact_texts h2 {
+    margin-bottom: 2%;
+}
+#contact .contact_texts h3 {
+    margin-bottom: 20%;
+}
+#contact .contact_texts h4 {
+    margin-bottom: 3%;
+}
+#contact .contact_texts p {
+    margin-bottom: 3%;
+}
+#contact .contact_texts div img {
+    color: #eee;
+}
+#contact .contact_img {
+    width: 35%;
+    height: 85%;
+    /* background-color: #eee; */
+    float: left;
+    margin-top: 40px;
+    margin-left: 3%;
+}
+.contact_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+.social {
+    margin-left: -1%;
+}
+.social a {
+    display: inline-block;
+    padding-right: 1%;
+}
+#contact .clear {
+    clear: all;
+}
+/* contact part css end */
+
+/* footer part css start */
+section#footer {
+    background-color: #222;
+    height: 60px;
+}
+#footer .container {
+    margin: 0;
+    padding: 0;
+}
+#footer p {
+    /* background-color: #aaa; */
+    width: 95%;
+    margin-left: 60px;
+    padding: 18px 0;
+    text-align: center;
+    color: #E6E5E1;
+}
+/* footer part css end */
