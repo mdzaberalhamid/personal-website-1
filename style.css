@@ -1,4 +1,3 @@
-/* Color codes */
 /* E6E5E1 */
 /* CFCCBB */
 /* 564E43 */
@@ -34,6 +33,8 @@ section#home {
     /* background-color: #0a0; */
     margin: 0 auto;
     padding: 3% 0;
+
+    /* padding: 40px; */
 }
 .home_img {
     width: 45%;
@@ -73,6 +74,7 @@ section#home {
     text-transform: uppercase;
     text-decoration: none;
 }
+
 /* home part css end */
 
 /* about part css start */
@@ -91,6 +93,7 @@ section#about {
     text-transform: uppercase;
 }
 .about_texts p {
+    /* margin-right: 10px; */
     text-align: justify;
     line-height: 1.5;
 }
@@ -107,8 +110,8 @@ section#about {
     border-radius: 1%;
 }
 
-/* about part css end */
 
+/* about part css end */
 
 /* services part css start */
 section#services {
@@ -162,7 +165,6 @@ section#services {
 
 /* services part css end */
 
-
 /* testimonial part css start */
 section#testimonial {
     background-color: #CFCCBB;
@@ -170,11 +172,13 @@ section#testimonial {
 #testimonial h2 {
     margin-bottom: 4%;
     margin-left: 60px;
+
 }
 .div_testimonials {
     width: calc(100% - 100px);
     height: 80%;
     margin-left: 60px;
+    /* margin-right: 60px; */
     /* background-color: #ee0; */
 }
 #testimonial .div_t1 {
@@ -208,9 +212,7 @@ section#testimonial {
 .div_testimonials div p {
     margin: 3% 0;
 }
-
 /* testimonial part css end */
-
 
 /* contact part css start */
 section#contact {
@@ -237,6 +239,9 @@ section#contact {
 #contact .contact_texts p {
     margin-bottom: 3%;
 }
+/* #contact .contact_texts div {
+    background-color: #eee;
+} */
 #contact .contact_texts div img {
     color: #eee;
 }
@@ -277,6 +282,7 @@ section#footer {
 #footer p {
     /* background-color: #aaa; */
     width: 95%;
+    /* height: 100%; */
     margin-left: 60px;
     padding: 18px 0;
     text-align: center;
@@ -288,7 +294,9 @@ section#footer {
 
 /* Responsive codes start */
 @media screen and (max-width: 425px){
-
+    section {
+        height: 780px;
+    }
     h2 {
         font-size: 30px;
     }
@@ -423,8 +431,14 @@ section#footer {
 /* --------------------------------------- */
 
 @media screen and (max-width: 360px) {
+    section {
+        height: 800px;
+    }
+    .home_img {
+        height: 360px;
+    }
     .home_texts a {
-        margin: 35% 0 1%;
+        margin: 45% 0 1%;
     }
     .about_img img {
         margin-top: 50px;
